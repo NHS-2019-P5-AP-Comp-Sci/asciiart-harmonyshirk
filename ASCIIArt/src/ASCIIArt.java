@@ -16,12 +16,34 @@
 
 // YOU CODE HERE :) 
 
+//** This is a fly with a human body. The fly's dream is to fly all the way to California and attend UC Berkeley. 
+
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void head() {
+		System.out.println("           o     o");
+		System.out.println("            \\ _ /");
+		System.out.println("            /   \\");
+		System.out.println("           /@   @\\");
+		System.out.println("        /\\ \\ ^   / /\\");
+		System.out.println("       /  \\ \\___/ /  \\");
 	}
+	public static void body() {
+		System.out.println("       \\   @|   |@   /");
+		System.out.println("        \\ @/     \\@ /");
+		System.out.println("         /|  Cal' |\\");
+		System.out.println("        / |       | \\");
+		System.out.println("       o  |       |  o");
+		System.out.println("          +-------+");
+	}
+	public static void legs() {
+		System.out.println("          |       |");
+		System.out.println("          |       |");
+		System.out.println("          O       O");
+	}
+	public static void main (String [] args) {
+		head();
+		body();
+		legs();
+	System.out.println("This is a fly with a human body. The fly's dream is to fly all the way to California and attend UC Berkeley.");
+}
 }
